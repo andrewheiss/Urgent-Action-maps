@@ -19,7 +19,9 @@ library(rgeos)
 library(maptools)
 
 
+#-------------------
 # Useful functions
+#-------------------
 clean.levels <- function(x) {
   separated <- unlist(strsplit(x, ","))
   
